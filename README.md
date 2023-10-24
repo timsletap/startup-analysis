@@ -17,4 +17,4 @@ A multi-layer Perceptron classifier which optimizes the log-loss function using 
 An ensemble method that builds an additive model in a forward stage-wise fashion. It constructs regression trees and fits them to the negative gradient of the loss function. It sequentially builds shallow trees and each tree tries to correct the errors of its predecessor. Depending on data size, training can be time-consuming since trees are built sequentially. It requires preprocessing to handle missing data via imputation. This specific model requires imputation but there are other boosting variants that can handle missing data natively. It offers a level of interpretability by visualizing individual trees, feature importance, and plots. Our model was tailored with hyperparameters including a learning rate of 0.1 and total estimators of 100.
 
 ## Feedback
-Let me know if you have any further questions or feedback. Here is a link to my paper
+Let me know if you have any further questions or feedback. Here is a link to my paper [paper](https://github.com/timsletap/startup-analysis/blob/main/PredictionOfStartupSuccessUsingML.pdf)
